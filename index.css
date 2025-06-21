@@ -1,0 +1,74 @@
+/* === Global reset === */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+		Arial, sans-serif;
+	background: #f2f2f2;
+	color: #333;
+	line-height: 1.4;
+}
+
+/* === Feed wrapper === */
+.feed {
+	max-width: 620px;               /* keeps everything the same width as the GIF */
+	margin: 40px auto;              /* centers vertically & horizontally */
+}
+
+/* === Main title === */
+.feed > h1 {
+	text-align: center;
+	font-size: 32px;
+	font-weight: 700;
+	margin-bottom: 40px;
+}
+
+/* === Individual post card === */
+.post {
+	background: #fff;
+	border: 1px solid #e1e1e1;
+	margin-bottom: 50px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+/* --- top bar --- */
+.post-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 14px;
+	font-weight: 600;
+	border-bottom: 1px solid #e1e1e1;
+}
+
+.post-header h2 {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.post-header time {
+	font-size: 12px;
+	color: #888;
+}
+
+/* --- image --- */
+.post img {
+	display: block;
+	width: 100%;
+	/* keeps images sharp & proportional */
+	object-fit: cover;
+}
+
+/* --- caption --- */
+.post-description {
+	padding: 16px 14px 18px;
+	font-size: 14px;
+}
+
+.post-description strong {
+	font-weight: 700;
+}
