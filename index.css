@@ -15,8 +15,8 @@ body {
 
 /* === Feed wrapper === */
 .feed {
-	max-width: 620px;               /* keeps everything the same width as the GIF */
-	margin: 40px auto;              /* centers vertically & horizontally */
+	max-width: 620px;            
+	margin: 40px auto;              
 }
 
 /* === Main title === */
@@ -59,7 +59,7 @@ body {
 .post img {
 	display: block;
 	width: 100%;
-	/* keeps images sharp & proportional */
+	
 	object-fit: cover;
 }
 
